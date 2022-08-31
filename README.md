@@ -26,6 +26,18 @@ The algorithm is to repeatedly loop through all empty cells in the grid and calc
 the same column of that cell. If only one letter is missing from that set, fill the current empty cell with that letter.
 Repeat until all cells are filled.
 
+For example:
+
+|   |   |   |
+|   |   | C |
+|   | A |   |
+
+In the first iteration, cell 5 and cell 9 would be filled with ```B```;
+
+In the second iteration, all cells except for cell 1 would be filled;
+
+In the third iteration, cell 1 would be filled and the grid is complete.
+
 ## c4_jr_duplicates.py
 
 2017-2018 ACSL [Junior Division Programming Problem: Duplicates](http://www.datafiles.acsl.org/samples/contest4/c_4_duplicates_jr.pdf).
