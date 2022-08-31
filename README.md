@@ -29,6 +29,7 @@ Repeat until all cells are filled.
 For example:
 
 |   |   |   |
+| - | - | - |
 |   |   | C |
 |   | A |   |
 
