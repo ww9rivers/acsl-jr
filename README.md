@@ -28,10 +28,10 @@ Repeat until all cells are filled.
 
 For example:
 
-|   |   |   |
-| - | - | - |
-|   |   | C |
-|   | A |   |
+| &nbsp; | &nbsp; | &nbsp; |
+| --- | --- | --- |
+| &nbsp; | &nbsp; | *C* |
+| &nbsp; |   *A*  | &nbsp; |
 
 In the first iteration, cell 5 and cell 9 would be filled with ```B```;
 
